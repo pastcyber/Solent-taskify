@@ -1,0 +1,62 @@
+
+
+.box{
+    /* box-shadow: 0px 0px 30px 10px black; */
+    background: #9986C6;
+    padding: 40px;
+    color: white;
+}
+
+
+.bgLogin{
+    background:linear-gradient(to right ,rgb(153 134 198 / 61%), rgb(153 134 198 / 61%)),url('../asset/images/bg-login.png')
+}
+
+.social img{
+    width: 35px;
+    cursor: pointer;
+}
+.social{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.signupBtn{
+ background-color:#9986C6 ;
+ border-radius: 30px;
+ color:white;
+ border: 1px solid white;
+ padding: 8px 50px;
+ margin-top: 20px;
+ cursor: pointer;
+}
+.signupBtn:hover{
+ background-color:white ;
+ border-radius: 30px;
+ color:#9986C6;
+ border: 1px solid #9986C6;
+ padding: 8px 50px;
+ margin-top: 20px;
+ cursor: pointer;   
+}
+.signInBtn{
+padding: 8px 60px;
+border-radius: 30px;
+background-color: #604899;
+color: white;
+margin-bottom: 10px;
+border: 1px solid #9986C6;
+font-size: 18px;
+cursor: pointer;
+}
+.signInBtn:hover{
+padding: 8px 60px;
+border-radius: 30px;
+background-color: white;
+color: #604899;
+margin-bottom: 10px;
+border: 1px solid #604899;
+font-size: 18px;
+cursor: pointer;
+}

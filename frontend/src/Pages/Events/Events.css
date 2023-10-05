@@ -1,0 +1,61 @@
+.calendar_default_main{
+    height:100% !important;
+    border:none !important;
+    padding-top: 20px;
+}
+.calendar_default_main div:nth-child(even){
+    height:calc(100% - 30px) !important; 
+}
+
+.calendar_default_colheader_inner{
+    background: white !important;
+}
+
+.calendar_default_rowheader_inner{
+    background: white !important;
+}
+
+.calendar_default_corner_inner{
+    background: white !important;
+}
+
+.navigator_default_cell{
+    background: white !important;
+}
+
+.navigator_default_titleleft{
+    background-color: white !important;
+}
+
+.navigator_default_title{
+    background-color: white !important;
+}
+
+.navigator_default_titleright{
+    background: white !important;
+}
+
+.navigator_default_select{
+    background-color: #9986C6 !important;
+    color:white
+}
+
+.modal_default_main{
+    border:0px !important;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.modal_default_buttons{
+    position: absolute;
+    bottom: 30px;
+}
+
+.calendar_default_colheader_inner {
+    border-bottom: none !important;
+}
+
+.calendar_default_corner_inner{
+    border-bottom: none !important;
+    border-right: none !important;
+}
